@@ -2,100 +2,102 @@
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>Longrich - Santé, Beauté & Opportunité</title>
+  <title>Produits Longrich - Santé & Opportunité</title>
   <style>
     body {
+      font-family: Arial, sans-serif;
+      background-color: #f5fefc;
       margin: 0;
-      font-family: 'Segoe UI', sans-serif;
-      background-color: #f4fdfb;
-      color: #044e3f;
+      padding: 0;
+      color: #333;
     }
     header {
-      background-color: #00a478;
+      background-color: #00897b;
       color: white;
-      padding: 1.5rem;
       text-align: center;
+      padding: 1rem 0;
     }
     h1 {
       margin: 0;
-      font-size: 2rem;
     }
-    .section {
+    .container {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+      gap: 1.5rem;
       padding: 2rem;
-      max-width: 1000px;
-      margin: auto;
     }
     .product {
-      background: white;
-      border-radius: 12px;
-      box-shadow: 0 2px 10px rgba(0,0,0,0.1);
-      margin-bottom: 2rem;
-      overflow: hidden;
-      display: flex;
-      flex-wrap: wrap;
+      background-color: white;
+      border-radius: 10px;
+      box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+      padding: 1rem;
+      text-align: center;
     }
     .product img {
-      width: 100%;
-      max-width: 300px;
-      object-fit: cover;
+      max-width: 100%;
+      height: auto;
+      border-radius: 8px;
     }
-    .product-info {
-      flex: 1;
-      padding: 1rem;
-    }
-    .product-info h2 {
-      margin-top: 0;
-      color: #00a478;
-    }
-    .product-info p {
+    .price {
+      color: #00897b;
+      font-weight: bold;
       margin: 0.5rem 0;
     }
-    .whatsapp-btn {
+    .whatsapp-button {
       display: inline-block;
       margin-top: 1rem;
-      padding: 0.75rem 1.5rem;
       background-color: #25d366;
       color: white;
-      border-radius: 8px;
+      padding: 0.5rem 1rem;
+      border-radius: 25px;
       text-decoration: none;
       font-weight: bold;
     }
     footer {
-      background-color: #00a478;
-      color: white;
       text-align: center;
       padding: 1rem;
-      margin-top: 2rem;
+      background-color: #e0f2f1;
+      font-size: 0.9rem;
     }
   </style>
 </head>
 <body>
   <header>
-    <h1>Longrich – Santé, Beauté & Opportunité</h1>
-    <p>Des produits innovants pour une vie plus saine et plus prospère</p>
-  </header>  <div class="section">
+    <h1>Longrich - Santé & Opportunité</h1>
+    <p>Des produits qui transforment votre bien-être</p>
+  </header>  <div class="container">
     <div class="product">
-      <img src="https://i.imgur.com/USV2L1P.png" alt="Pâte dentifrice Longrich" />
-      <div class="product-info">
-        <h2>Pâte Dentifrice Longrich</h2>
-        <p>Protège les dents, blanchit naturellement, et lutte contre les bactéries.</p>
-        <p><strong>Prix :</strong> 3 500 FCFA</p>
-        <a class="whatsapp-btn" href="https://wa.me/TONNUMERO">Commander sur WhatsApp</a>
-      </div>
+      <img src="https://cdn.longrich-images.com/toothpaste.jpg" alt="Pâte dentifrice Longrich" />
+      <h2>Pâte dentifrice Longrich</h2>
+      <p>Combat les maux de dents, les caries et garantit une haleine fraîche toute la journée.</p>
+      <p class="price">4.500 FCFA</p>
+      <a href="https://wa.me/2250700000000" class="whatsapp-button">Commander</a>
     </div><div class="product">
-  <img src="https://i.imgur.com/WZkhcw0.png" alt="Lait Corporel SOD" />
-  <div class="product-info">
-    <h2>Lait Corporel SOD</h2>
-    <p>Hydratation intense, anti-âge puissant et éclat naturel de la peau.</p>
-    <p><strong>Prix :</strong> 6 000 FCFA</p>
-    <a class="whatsapp-btn" href="https://wa.me/TONNUMERO">Commander sur WhatsApp</a>
-  </div>
+  <img src="https://cdn.longrich-images.com/savon-charbon.jpg" alt="Savon noir au charbon de bambou" />
+  <h2>Savon noir au charbon de bambou</h2>
+  <p>Absorbe la saleté, élimine l'excès de graisse. Parfait pour les peaux grasses.</p>
+  <p class="price">7.500 FCFA</p>
+  <a href="https://wa.me/2250700000000" class="whatsapp-button">Commander</a>
 </div>
 
-<p style="text-align: center; font-style: italic;">Découvrez également toute la gamme Longrich : soins capillaires, hygiène intime, compléments nutritionnels, et bien plus encore.</p>
+<div class="product">
+  <img src="https://cdn.longrich-images.com/lotion-rajeunissante.jpg" alt="Lotion corporelle de rajeunissement" />
+  <h2>Lotion corporelle de rajeunissement</h2>
+  <p>Hydrate, nourrit, adoucit et donne à votre peau un aspect lumineux et frais.</p>
+  <p class="price">5.000 FCFA</p>
+  <a href="https://wa.me/2250700000000" class="whatsapp-button">Commander</a>
+</div>
+
+<div class="product">
+  <img src="https://cdn.longrich-images.com/shampooing-2en1.jpg" alt="Shampooing 2 en 1" />
+  <h2>Shampooing 2 en 1</h2>
+  <p>Nettoie, revitalise et lutte contre les pellicules. Convient à tous les types de cheveux.</p>
+  <p class="price">7.500 FCFA</p>
+  <a href="https://wa.me/2250700000000" class="whatsapp-button">Commander</a>
+</div>
 
   </div>  <footer>
-    <p>&copy; 2025 Longrich – Santé, Beauté & Opportunité | Tous droits réservés</p>
+    © 2025 Longrich Santé & Opportunité. Tous droits réservés.
   </footer>
 </body>
-  </html
+                               </html>
